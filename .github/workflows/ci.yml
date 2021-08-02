@@ -34,6 +34,8 @@ jobs:
         run: yarn install --immutable --immutable-cache
       - name: Lint JavaScript files
         run: yarn lint
+      - name: Lint Sass files
+        run: yarn lint:styles
 
   test:
     runs-on: ubuntu-latest
