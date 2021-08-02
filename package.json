@@ -5,8 +5,8 @@
     "build": "next build",
     "clean": "rimraf .next",
     "develop": "next",
-    "format": "prettier --write '**/*.{js,md,scss,ts,tsx}' '!**/{build,es,lib,storybook,ts,umd}/**'",
-    "format:diff": "prettier --list-different '**/*.{js,md,scss,ts,tsx}' '!**/{build,es,lib,storybook,ts,umd}/**'",
+    "format": "prettier --write '**/*.{js,md,scss,ts,tsx,yml}' '!**/{build,es,lib,storybook,ts,umd}/**'",
+    "format:diff": "prettier --list-different '**/*.{js,md,scss,ts,tsx,yml}' '!**/{build,es,lib,storybook,ts,umd}/**'",
     "lint": "eslint src",
     "lint:styles": "stylelint '**/*.{css,scss}' --report-needless-disables --report-invalid-scope-disables",
     "start": "next start",
@@ -50,7 +50,7 @@
       "prettier --write",
       "stylelint --report-needless-disables --report-invalid-scope-disables --allow-empty-input"
     ],
-    "**/*.md": [
+    "**/*.{md,yml}": [
       "prettier --write"
     ]
   }
