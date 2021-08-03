@@ -8,7 +8,7 @@ module.exports = {
     defaultLocale: 'en-US',
   },
   sassOptions: {
-    includePaths: ['node_modules'],
+    includePaths: [path.join(__dirname, 'node_modules')],
   },
   webpack(config) {
     config.resolve.alias['~'] = path.join(__dirname, 'src');
