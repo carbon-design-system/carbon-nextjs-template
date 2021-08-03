@@ -52,4 +52,4 @@ jobs:
       - name: Install dependencies
         run: yarn install --immutable --immutable-cache
       - name: Run tests
-        run: yarn test --ci
+        run: yarn test --ci --passWithNoTests

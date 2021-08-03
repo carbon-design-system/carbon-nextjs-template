@@ -1,0 +1,6 @@
+# Generated folders
+.next
+node_modules
+
+# Auto-generated file from yarn
+.yarnrc.yml
