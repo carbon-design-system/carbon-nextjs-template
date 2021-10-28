@@ -33,7 +33,7 @@
     "prettier": "^2.4.1",
     "prettier-config-carbon": "^0.4.0",
     "rimraf": "^3.0.2",
-    "stylelint": "^14.0.1",
+    "stylelint": "^13.13.1",
     "stylelint-config-carbon": "^1.7.0"
   },
   "commitlint": {
