@@ -53,5 +53,6 @@
     "**/*.{md,yml}": [
       "prettier --write"
     ]
-  }
+  },
+  "packageManager": "yarn@3.1.0"
 }
