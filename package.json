@@ -14,7 +14,7 @@
     "postinstall": "husky install"
   },
   "dependencies": {
-    "@carbon/react": "^0.8.0",
+    "@carbon/react": "^1.23.1",
     "next": "^12.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
